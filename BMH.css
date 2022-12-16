@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grey+Qo&family=Lancelot&display=swap');
+
+.corpo{
+    margin: 0 auto;
+    width: 940px;
+    background-color: #fdf6e7;
+    
+}
+
+header{
+    background-color: #c1d1ee;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+   }
+.logo{
+    height: 80px;
+    cursor: pointer;
+}
+
+.cabeçalho{
+width: 100%;
+margin-top: 20px;
+}
+/*-------------------------------MAIN-------------------------------------------*/
+.titulos{
+    display: block;
+    padding: 20px;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Grey Qo', cursive;
+    clear: left;
+    clear: right;
+}
+
+.paragrafo{
+    text-align: center;
+    font-family: lancelot;
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+.topicos{
+    
+    font-family: lancelot;
+    font-size: 20px;
+    line-height: 35px;   
+}
+
+p1{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+   
+ }
+
+p2{
+    display: block;
+   margin: 20px auto;
+    width:70%;
+ }
+
+/*=============================== area externa =====================*/
+.imgexterna{
+    
+    margin: 0 0 15px 30px;
+    width: 30%;
+    float: left;
+}
+
+
+p3{
+    margin:  auto;
+    padding-left: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 55%;
+    
+}
+p4{
+    margin: 20px auto 0 auto;
+    display: inline-block;
+    text-align: center;
+    width: 55%;
+    padding-left: 50px;
+   
+}
+/*================== area interna===================*/
+
+.imgint{
+
+float: right;
+width: 30%;
+margin-right: 40px;
+margin-top: 40px;
+
+}
+
+p5{
+    
+    margin: 0 0 15px 30px;
+    display: inline-block; 
+    text-align: center;
+    width: 55%; 
+}
+
+p6{
+    margin: 0 0 15px 30px;
+    display: inline-block;
+    text-align: center;
+     width: 55%; 
+}
+
+.topicos{
+    margin: 0 0 15px 30px;
+    padding: 20px;
+    display: inline-block;
+  
+}
+
+.botao{
+    text-align: center;
+}
+.contato{
+   
+    width: 30%;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background: #c1d1ee;
+    padding: 15px;
+    border:none;
+    font-weight: bold;
+    transition: 0.4s; background;
+    border-radius: 5px;
+    font-size: 15px;
+     
+}
+
+.contato :hover{
+    font-size: 17px ;
+    background: #b91a97;
+}
+
+.mapa{
+    clear: top;
+   width:650px;
+   margin: 0 auto 2em auto;
+}
+
+
+
+
+/*==============roda pé===========================*/
+.rodape{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    margin-bottom:  200px;
+    background-color: #c1d1ee;
+}
+.cont{
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 5%;
+    cursor: pointer;
+}
+.cont:hover{
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 5.5%;
+    cursor: pointer;
+   
+}

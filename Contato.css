@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grey+Qo&family=Lancelot&display=swap');
+
+.corpo{
+    margin: 0 auto;
+    width: 940px;
+    background-color: #fdf6e7;
+    
+}
+
+header{
+    background-color: #c1d1ee;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+   }
+.logo{
+    height: 80px;
+    cursor: pointer;
+}
+
+.cabeçalho{
+width: 100%;
+margin-top: 20px;
+}
+/*-------------------------------MAIN-------------------------------------------*/
+
+main{
+    margin: 15px 25px;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-family:"grey Qo",cursive;
+}
+.questionario{
+    font-family: lancelot;
+    font-size: 20px;
+    display: block;
+}
+
+
+.entrada{
+    display: block;
+   width: 60%;
+    padding: 5px;
+    
+}
+.legenda{
+    display: block;
+    margin: 10px 0;
+}
+
+#enviar{
+    width: 45%;
+    padding: 10px 0;
+    background-color:#c1d1ee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s; background;
+}
+#enviar:hover{
+    background:#99a7c2;
+}
+
+#enviar:active{
+    font-size: 14px;
+}
+
+
+/*==============roda pé===========================*/
+.rodape{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    margin-bottom:  200px;
+    background-color: #c1d1ee;
+}
+p1{
+    display: block;
+}
+.cont{
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 5%;
+    cursor: pointer;
+}
+.cont:hover{
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 5.5%;
+    cursor: pointer;
+   
+}
